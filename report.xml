@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="TestCafe Tests: Chrome 95.0.4638.54 / Windows 10" tests="7" failures="0" skipped="0" errors="0" time="140.565" timestamp="Mon, 25 Oct 2021 17:42:38 GMT" >
+  <testcase classname="TestCafe Final Project" name="[0001] VALID loan (Loan amount DOESN’T EXCEEDS allowable loan amount, salary greater than all Bank’s requirement)" time="20.589">
+  </testcase>
+  <testcase classname="TestCafe Final Project" name="[0002] INVALID LOAN A (Loan amount EXCEEDS allowable loan amount, salary greater than all Bank’s requirement)" time="15.659">
+  </testcase>
+  <testcase classname="TestCafe Final Project" name="[0003] INVALID LOAN B (Loan amount DOESN’T EXCEEDS allowable loan amount, salary less than all Bank’s requirement)" time="15.409">
+  </testcase>
+  <testcase classname="TestCafe Final Project" name="[0004] Edit or Delete applicant with existing loans" time="23.062">
+  </testcase>
+  <testcase classname="TestCafe Final Project" name="[0005] Edit or Delete applicant with non-existing loans" time="33.437">
+  </testcase>
+  <testcase classname="TestCafe Final Project" name="[0006] VALID Loan, Verify Monthly Installment breakdown" time="14.587">
+  </testcase>
+  <testcase classname="TestCafe Final Project" name="[0007] VALID Loan, Verify Metrics, bank with higher loans is in bold text" time="17.739">
+  </testcase>
+</testsuite>

@@ -1,0 +1,21 @@
+{
+  "name": "FinalProject",
+  "version": "1.0.0",
+  "description": "TestCafe Final Project - Loan Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests",
+    "test-list-terminal-output": "testcafe chrome tests -r list",
+    "test-xunit": "testcafe chrome tests -r xunit:report.xml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "testcafe": "^1.16.1",
+    "testcafe-reporter-xunit": "^2.1.0"
+  }
+}

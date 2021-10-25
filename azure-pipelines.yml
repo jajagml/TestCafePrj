@@ -1,0 +1,19 @@
+jobs:
+- job: Project_YML
+  pool:
+    vmImage: 'windows-2019'
+  steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '14.7'
+    displayName: 'Install Node.js'
+  - script: npm install
+    displayName: 'Install TestCafe'
+    workingDirectory: FinalProject
+  - script: npm test
+    displayName: 'Run TestCafe Tests'
+    workingDirectory: FinalProject
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFiles: '**/report.xml'
+      testResultsFormat: 'JUnit'
